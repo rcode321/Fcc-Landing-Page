@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product Landing Page</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <header id="header">
+      <div class="nav" id="navbar">
+        <a href="" id="header-img">
+          <h1>M.S</h1>
+        </a>
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#vid">History</a></li>
+          <li><a href="#styles">Styles</a></li>
+        </ul>
+      </div>
+
+      <aside class="nav-sidebar">
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">BLOGS</a></li>
+        </ul>
+      </aside>
+
+
+      <div class="marikina-shoe">
+        <h1 class="title-banner">Marikina Shoe</h1>
+        <p>Philippines Capital Shoe Maker</p>
+        <form action="/action_page.php" method="post">
+          <input type="text" name="fname" required placeholder="Enter your email address">
+          <input class="button button2" type="submit" value="Submit" id="submit">
+        </form>
+      </div>
+    </header>
+  </div>
+
+
+  <h1 class="about" id="about">About</h1>
+  <div class="wrapper">
+    <div class="main">
+      <i class="fas fa-check-square fa-3x"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse eius quibusdam dicta vitae sint
+        quibusdam dicta vitae.</p>
+
+      <i class="fas fa-shield-alt fa-3x"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse eius quibusdam dicta vitae sint
+        quibusdam dicta vitae.</p>
+
+      <i class="fas fa-shipping-fast fa-3x"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse eius quibusdam dicta vitae sint
+        quibusdam dicta vitae.</p>
+    </div>
+  </div>
+
+  <iframe id="vid" src="https://www.youtube.com/embed/1mkwkEOr46E"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <div class="wrapper">
+    <div class="row" id="styles">
+      <div class="column">
+        <div class="card0">
+          <img src="/img/shoe4.jpg" alt="">
+          <h1>$200</h1>
+          <h2>Boots</h2>
+          <button class="button button2">SELECT</button>
+        </div>
+
+        <div class="card1">
+          <img src="/img/shoe2.jpg" alt="">
+          <h1>$300</h1>
+          <h2>Sandals</h2>
+          <button class="button button2">SELECT</button>
+        </div>
+
+        <div class="card2">
+          <img src="/img/shoes.jpg" alt="">
+          <h1>$400</h1>
+          <h2>Leather Shoe</h2>
+          <button class="button button2">SELECT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <h1>Marikina Shoe <span style="font-size: 20px;">&#169;</span></h1>
+    <div class="icons">
+      <a href="#"><i class="fab fa-facebook-square fa-2x "></i></a>
+      <a href="#"><i class="fab fa-twitter-square fa-2x "></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x "></i></a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
